@@ -40,12 +40,12 @@ Herald is composed of several key components, each in its own repository:
 
 | Repository | Description | Language/Stack |
 | :--- | :--- | :--- |
-| **[heraldhq-protocol/privacy-registry](link-to-repo)** | The Solana Anchor program that powers the on-chain identity registry. Stores encrypted email mappings and manages user opt-in preferences. | Rust, Anchor |
-| **[heraldhq-protocol/notification-gateway](link-to-repo)** | The core NestJS backend. Handles API authentication, rate limiting, wallet resolution, TEE-based decryption, and email dispatch. | TypeScript, NestJS |
-| **[heraldhq-protocol/herald-sdk-ts](link-to-repo)** | The official TypeScript/JavaScript SDK for protocols to interact with the Herald API. Supports Node.js and browser environments. | TypeScript |
-| **[heraldhq-protocol/herald-sdk-rust](link-to-repo)** | The official Rust SDK for protocols. Async-first, with support for WebAssembly. | Rust |
-| **[heraldhq-protocol/user-portal](link-to-repo)** | The Next.js application where users connect their wallet to register, update, or delete their email and notification preferences. | TypeScript, Next.js |
-| **[heraldhq-protocol/dev-dashboard](link-to-repo)** | The Next.js dashboard for protocol developers to manage API keys, view analytics, configure webhooks, and handle billing. | TypeScript, Next.js |
+| **[heraldhq-protocol/privacy-registry](https://github.com/heraldhq-protocol/privacy-registry)** | The Solana Anchor program that powers the on-chain identity registry. Stores encrypted email mappings and manages user opt-in preferences. | Rust, Anchor |
+| **[heraldhq-protocol/notification-gateway](https://github.com/heraldhq-protocol/notification-gateway)** | The core NestJS backend. Handles API authentication, rate limiting, wallet resolution, TEE-based decryption, and email dispatch. | TypeScript, NestJS |
+| **[heraldhq-protocol/herald-sdk-ts](https://github.com/heraldhq-protocol/herald-sdk-ts)** | The official TypeScript/JavaScript SDK for protocols to interact with the Herald API. Supports Node.js and browser environments. | TypeScript |
+| **[heraldhq-protocol/herald-sdk-rust](https://github.com/heraldhq-protocol/herald-sdk-rust)** | The official Rust SDK for protocols. Async-first, with support for WebAssembly. | Rust |
+| **[heraldhq-protocol/user-portal](https://github.com/heraldhq-protocol/user-portal)** | The Next.js application where users connect their wallet to register, update, or delete their email and notification preferences. | TypeScript, Next.js |
+| **[heraldhq-protocol/dev-dashboard](https://github.com/heraldhq-protocol/dev-dashboard)** | The Next.js dashboard for protocol developers to manage API keys, view analytics, configure webhooks, and handle billing. | TypeScript, Next.js |
 
 ## Contributing
 
